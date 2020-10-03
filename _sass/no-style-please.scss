@@ -1,9 +1,11 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  
-    html, body { background-color: black; }
-    body { color: white; }
+    background-color: black;
+    color: white;
 
+    a {
+        color: yellow;    
+    }
 }
 
 body[a="dark"] { @include dark-appearance; }
